@@ -1,0 +1,78 @@
+body{
+    font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+/* navbar styles */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 200px;
+}
+.nav-title{
+    color: #000;
+    font-size: 45px;
+    font-weight: 800;
+    
+}
+.text-primary{
+    color: orangered;
+}
+nav>ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav a{
+    text-decoration: none;
+    color:rgb(56, 54, 49)
+}
+.btn-primary{
+    border-radius: 5px;
+    background: orangered;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 35px;
+}
+
+/* header styles */
+.header{
+    background-color: bisque;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.banner .profile-pic{
+    width:400px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
