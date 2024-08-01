@@ -132,12 +132,36 @@ main section{
     font-size: 30px;
     font-weight: 700;
 }
+.resume-container{
+    display: flex;
+    gap:100px;
+}
+.resume-item-title{
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.resume-item-institude{
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+.resume-item-institude,.resume-item-description{
+    color: #757575;
+}
+.resume-container hr{
+    margin: 30px ;
+}
+.download-cv-button{
+    text-align: center;
+    margin-top: 50px;
+}
 
-
-
-
-
-
-
+footer{
+    display: flex;
+    background: #fff;
+    padding: 130px 200px;
+    margin-top: 100px;
+}
 
 
